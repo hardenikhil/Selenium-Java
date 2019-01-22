@@ -1,0 +1,12 @@
+driverpath= C://Users//nikhil.harde//Practice//driverpath//chromedriver.exe
+
+browser= webdriver.chrome.driver
+
+url= https://qa2.owner.ford.com/
+
+owner= https://owner.ford.com
+
+bootstrapurl= https://www.olx.in/computer-accessories/q-gtx-1080/
+
+iframe= http://5elementslearning.com/iframe-practice-page.php
+
