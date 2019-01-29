@@ -11,7 +11,7 @@ public class LargestSmallestNumber {
 		
 		Arrays.sort(array);//{-88, -10, 22, 50, 9867}
 		System.out.println(Arrays.toString(array));
-		//System.out.println("First largest element is "+ array[array.length-1]);
+		System.out.println("First largest element is "+ array[array.length-1]);
 		
 		/**int largest = array[0];
 		int smallest = array[0];
