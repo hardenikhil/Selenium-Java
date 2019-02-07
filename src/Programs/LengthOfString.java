@@ -4,28 +4,26 @@ package Programs;
 public class LengthOfString {
 
 	public static void count(String str){
-		//create character array of given string
-		char[] ch= str.toCharArray();
-		for(int i=0 ; i<ch.length; i++){
 		
-			//give empty slot to s
-			String s= "";
+		char[] ch= str.toCharArray(); //converted string into array
 		
-			//if char is having space then
-			while(i<ch.length && ch[i]!=' '){
-				s= s+ ch[i];
+		for(int i=0; i<ch.length; i++){ //H E L L O W O R L D
+			
+			String s=" ";
+			while(i < ch.length){
+				s= s + ch[i];
 				i++;
 			}
-		if(s.length()> 0){
-			System.out.println(s + "->"+ s.length());
-			}
+		if(s.length() > 0){
+			System.out.print(s +" "+ s.length());
+			
+		}
 		}
 		
 	}
+	
 	public static void main(String[] args) {
-		String str= "Hello World";
+		String str= "HelloWorld";
 		count(str);
 	}
-
-	
 }
