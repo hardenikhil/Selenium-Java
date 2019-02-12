@@ -14,5 +14,9 @@ public class EvenOddProgram {
 		} else {
 			System.out.println("Number is Odd");
 		}
+		/**Wihtout using moduler 
+		 * (num/2)*2==number >>> Then it is even
+		 * 
+		 */
 	}
 }
