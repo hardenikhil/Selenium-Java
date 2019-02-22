@@ -14,10 +14,11 @@ public class LengthOfString {
 				s= s + ch[i];
 				i++;
 			}
-		if(s.length() > 0){
+		/**if(s.length() > 0){
 			System.out.print(s +" "+ s.length());
 			
-		}
+		}**/
+			System.out.println(s.length());
 		}
 		
 	}

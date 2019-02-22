@@ -3,6 +3,7 @@ package Programs;
 import java.util.Scanner;
 
 //Sidha or ulta naam is same= palindrome
+// MOM = MoM
 public class PalindromeString {
 
 	public static void main(String[] args) {

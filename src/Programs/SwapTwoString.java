@@ -14,10 +14,10 @@ public class SwapTwoString {
 		a= a+b;// a= helloworld
 		
 		//store initial string a in b
-		b= a.substring(0, a.length()-b.length() );
+		b= a.substring(0, a.length()-b.length() ); //b= Hello
 		
 		//store initial string b in a
-		a= a.substring(b.length());
+		a= a.substring(b.length());  // a= world
 		
 		System.out.println("value of a after swap is a = "+ a);
 		System.out.println("value of b after swap is b = "+ b);
