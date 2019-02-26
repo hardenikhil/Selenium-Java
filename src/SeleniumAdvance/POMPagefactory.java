@@ -17,19 +17,19 @@ public class POMPagefactory
 	 }
 	
 
-	@FindBy(how=How.XPATH,using="//li[@class='cx-nav--margin-left-auto']")
+	@FindBy(xpath="//li[@class='cx-nav--margin-left-auto']")
 	@CacheLookup
 	WebElement register;
 	
-	@FindBy(how=How.XPATH,using="//input[@id='login-username']")
+	@FindBy(xpath="//input[@id='login-username']")
 	@CacheLookup
 	WebElement username;
 	
-	@FindBy(how=How.XPATH,using="//input[@id='login-password']")
+	@FindBy(xpath="//input[@id='login-password']")
 	@CacheLookup
 	WebElement password;
 	
-	@FindBy(how=How.XPATH,using="//div[@class='cx-form__block']//button[@class='cx-cta cx-cta--btn cx-cta--btn-primary']")
+	@FindBy(xpath="//div[@class='cx-form__block']//button[@class='cx-cta cx-cta--btn cx-cta--btn-primary']")
 	@CacheLookup
 	WebElement button;
 	
