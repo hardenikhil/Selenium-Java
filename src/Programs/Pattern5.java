@@ -1,18 +1,19 @@
 package Programs;
-
-import java.util.Scanner;
+/**
+54321
+5432
+543
+54
+5
+*/
 
 public class Pattern5 {
 
-	public static void main(String[] args) 
-	{
-		Scanner scanner= new Scanner(System.in);
-		System.out.println("enter the number");
-		int number= scanner.nextInt();
+	public static void main(String[] args) {
 		
-		for(int i=1; i<=number; i++)
+		for(int i=1; i<=6; i++)
 		{
-		  for(int j=5; j>=i; j--)
+		  for(int j=6; j>=i; j--)
 		  {
 			  System.out.print(j);  
 		  }

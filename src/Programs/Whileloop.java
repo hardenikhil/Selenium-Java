@@ -1,8 +1,15 @@
 package Programs;
 
-public class Whileloop 
-{
+
+public class Whileloop {
 	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+	}
 	
 
-}
+
