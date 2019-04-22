@@ -4,7 +4,11 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 /**
-------LinkedHashset will store element in proper insertion order
+---Contains only unique element
+---Store elements using Hashing Mechanism
+---Maintains insertion order
+---Not synchronized
+---Allows only one null values
  */
 public class Example1 {
 

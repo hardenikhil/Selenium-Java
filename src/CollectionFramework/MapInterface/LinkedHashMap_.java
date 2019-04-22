@@ -1,13 +1,21 @@
 package CollectionFramework.MapInterface;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.LinkedHashMap;
 
-public class Example2 {
+/**
+
+--LinkedHashMap is based on HashTable and LinkedList implementation
+--It also stores elements in the key-value pair like any other Map
+--Maintains the Insertion order of elements
+--It can have Null Key and Null Values
+
+ */
+
+public class LinkedHashMap_ {
 
 	public static void main(String[] args) {
 		//  Interface                     Class
-			Map<Integer, String> map= new HashMap<Integer, String>();
+		    LinkedHashMap<Integer,String> map = new LinkedHashMap<Integer,String>();
 			map.put(10, "Test1");
 			map.put(20, "Test2");
 			map.put(30, "Test3");

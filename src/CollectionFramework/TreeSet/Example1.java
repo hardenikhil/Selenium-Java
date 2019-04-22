@@ -6,6 +6,7 @@ import java.util.TreeSet;
 /**
 ----Contains unique element 
 ----Maintains ASCENDING Order
+----Does not allowed Duplicate
  */
 public class Example1 {
 

@@ -5,9 +5,11 @@ import java.util.Iterator;
 
 /**
 
---Hashset will stores the element by using mechanism using hashing
+--Hashset will stores the element by using hashing mechanism
 --Hashset contains unique elements only
 --does not maintain insertion order
+--Allows only one null values
+--Not synchronized
 
 <<< Difference between List & Set
 ----List contains duplicate element where as Set contains unique element

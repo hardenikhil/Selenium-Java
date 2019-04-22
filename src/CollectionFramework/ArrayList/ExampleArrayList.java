@@ -4,12 +4,13 @@ import java.util.ArrayList;
 
 /**
 <<<<<<<<<<<<<<<<  ArrayList Class >>>>>>>>>>>>>>>>
-1. Array list class can containt duplicate elements
-2. Array list class maintains insertion order
-3. It is non syncronized
-4. Allows random access bcoz array works at the index basis
+1. It uses indexing to store the element sequentially
+2. It allows duplicate elements
+3. It is not synchronized
+4. Element from arraylist can be access by using index
+5. We can use iterator or listiterator to access element
 */
-public class Example3ArrayListClass {
+public class ExampleArrayList {
 	
 	public static void main(String[] args) {
 		//How to Create object of Arraylist class
