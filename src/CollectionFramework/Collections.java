@@ -1,4 +1,4 @@
-package CollectionFramework.ArrayList;
+package CollectionFramework;
 /**
 - collection is a framework provided by java to store & manipulate group of object
 - collections is utility class provided by java for collection framework

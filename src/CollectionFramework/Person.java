@@ -1,4 +1,4 @@
-package CollectionFramework.ArrayList;
+package CollectionFramework;
 
 public class Person {
 
